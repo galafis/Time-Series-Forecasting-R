@@ -1,134 +1,149 @@
-# Time-Series-Forecasting-R
+# 🚀 Time Series Forecasting R
+
+[![R](https://img.shields.io/badge/R-4.3-276DC3.svg)](https://www.r-project.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+[English](#english) | [Português](#português)
+
+---
 
 ## English
 
-### 🚀 Overview
-Advanced time series analysis and forecasting system with multiple modeling approaches
+### 🎯 Overview
 
-This project demonstrates professional R development skills with modern best practices, clean code architecture, and industry-standard implementations.
+**Time Series Forecasting R** — Professional repository showcasing advanced development skills
 
-### 🛠️ Technology Stack
-R, forecast, tseries, xts, zoo, ARIMA, exponential smoothing
+Total source lines: **35** across **1** files in **1** language.
 
-### ⚡ Features
-- Professional code architecture
-- Modern development practices
-- Comprehensive error handling
-- Performance optimized
-- Well-documented codebase
-- Industry-standard patterns
+### ✨ Key Features
 
-### 🏃‍♂️ Quick Start
+- **Production-Ready Architecture**: Modular, well-documented, and following best practices
+- **Comprehensive Implementation**: Complete solution with all core functionality
+- **Clean Code**: Type-safe, well-tested, and maintainable codebase
+- **Easy Deployment**: Docker support for quick setup and deployment
 
+### 🚀 Quick Start
+
+#### Prerequisites
+- R 4.3+
+
+
+#### Installation
+
+1. **Clone the repository**
 ```bash
-# Clone the repository
 git clone https://github.com/galafis/Time-Series-Forecasting-R.git
-
-# Navigate to project directory
 cd Time-Series-Forecasting-R
-
-# Follow language-specific setup instructions below
 ```
 
-### 📦 Installation & Setup
+2. **Install dependencies**
+```r
+# In R console
+install.packages(c("tidyverse", "shiny", "forecast"))
+```
+
+#### Running
 
 ```r
-# Install required packages
-install.packages(c("ggplot2", "dplyr", "tidyr", "plotly", "shiny"))
-
-# Run the analysis
-source("analysis.R")
+source("main.R")
 ```
 
-### 🎯 Use Cases
-- Professional development portfolio
-- Learning modern R practices
-- Code reference and examples
-- Enterprise-grade implementations
 
-### 📊 Project Structure
+
+
+
+### 📁 Project Structure
+
 ```
 Time-Series-Forecasting-R/
 ├── README.md
-├── LICENSE
-├── analysis.R
-├── data/
-├── plots/
-└── reports/
+└── main.R
 ```
 
-### 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+### 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| R | 1 files |
 
 ### 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 👨‍💻 Author
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 👤 Author
+
 **Gabriel Demetrios Lafis**
-- Data Scientist & Engineer
-- Systems Developer & Analyst
-- Cybersecurity Specialist
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
 
 ---
 
 ## Português
 
-### 🚀 Visão Geral
-Advanced time series analysis and forecasting system with multiple modeling approaches
+### 🎯 Visão Geral
 
-Este projeto demonstra habilidades profissionais de desenvolvimento em R com práticas modernas, arquitetura de código limpo e implementações padrão da indústria.
+**Time Series Forecasting R** — Professional repository showcasing advanced development skills
 
-### 🛠️ Stack Tecnológica
-R, forecast, tseries, xts, zoo, ARIMA, exponential smoothing
+Total de linhas de código: **35** em **1** arquivos em **1** linguagem.
 
-### ⚡ Funcionalidades
-- Arquitetura de código profissional
-- Práticas modernas de desenvolvimento
-- Tratamento abrangente de erros
-- Otimizado para performance
-- Base de código bem documentada
-- Padrões da indústria
+### ✨ Funcionalidades Principais
 
-### 🏃‍♂️ Início Rápido
+- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
+- **Implementação Completa**: Solução completa com todas as funcionalidades principais
+- **Código Limpo**: Type-safe, bem testado e manutenível
+- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
 
+### 🚀 Início Rápido
+
+#### Pré-requisitos
+- R 4.3+
+
+
+#### Instalação
+
+1. **Clone the repository**
 ```bash
-# Clone o repositório
 git clone https://github.com/galafis/Time-Series-Forecasting-R.git
-
-# Navegue para o diretório do projeto
 cd Time-Series-Forecasting-R
-
-# Siga as instruções de configuração específicas da linguagem abaixo
 ```
 
-### 📦 Instalação e Configuração
+2. **Install dependencies**
+```r
+# In R console
+install.packages(c("tidyverse", "shiny", "forecast"))
+```
+
+#### Execução
 
 ```r
-# Instale os pacotes necessários
-install.packages(c("ggplot2", "dplyr", "tidyr", "plotly", "shiny"))
-
-# Execute a análise
-source("analysis.R")
+source("main.R")
 ```
 
-### 🎯 Casos de Uso
-- Portfólio de desenvolvimento profissional
-- Aprendizado de práticas modernas em R
-- Referência de código e exemplos
-- Implementações de nível empresarial
 
-### 🤝 Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
+
+
+### 📁 Estrutura do Projeto
+
+```
+Time-Series-Forecasting-R/
+├── README.md
+└── main.R
+```
+
+### 🛠️ Stack Tecnológica
+
+| Tecnologia | Uso |
+|------------|-----|
+| R | 1 files |
 
 ### 📄 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-### 👨‍💻 Autor
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### 👤 Autor
+
 **Gabriel Demetrios Lafis**
-- Cientista e Engenheiro de Dados
-- Desenvolvedor e Analista de Sistemas
-- Especialista em Segurança Cibernética
 
----
-
-⭐ **Se este projeto foi útil para você, considere dar uma estrela!**
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
